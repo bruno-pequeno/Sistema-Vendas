@@ -8,6 +8,6 @@ public class MainController {
 
     @GetMapping("administrative")
     public String mainAcess(){
-        return "administrative/home";
+        return "administrativo/home";
     }
 }
